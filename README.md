@@ -4,7 +4,13 @@
 - NIM: 312410372
 - Mata Kuliah : Pemrograman Web 1
 - Dosen Pengampu: Agung Nugroho, S.Kom., M.Kom.
-- 
+
+
+## Sandi User name
+
+- username: admin | password : 123456
+- username: user | password:1234
+
 ## Deskripsi Aplikasi 
 
 Aplikasi Manajemen Barang adalah aplikasi berbasis web yang dibuat menggunakan PHP Native dengan pendekatan Object Oriented Programming (OOP) dan Modular Programming, serta menerapkan Routing App menggunakan .htaccess. Aplikasi ini bertujuan untuk membantu pengelolaan data barang seperti pencatatan, pengelompokan kategori, pencarian, serta pengaturan stok barang dengan sistem login berbasis role (admin & user). Aplikasi dikembangkan sebagai pemenuhan tugas praktikum mata kuliah Pemrograman Web / OOP & Modular.
