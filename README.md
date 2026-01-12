@@ -100,5 +100,58 @@ Aplikasi Manajemen Barang adalah aplikasi berbasis web yang dibuat menggunakan P
 10. **Halaman ditampilkan ke user**
     User melihat hasil akhir halaman yang sudah responsif dan sesuai hak akses.
 
+## Ringkasan 
+### Index.php 
+
+File index.php berfungsi sebagai router utama dalam aplikasi. File ini bertugas untuk menerima permintaan dari pengguna melalui parameter URL, kemudian menentukan modul dan halaman mana yang akan ditampilkan. Selain itu, index.php juga bertanggung jawab untuk memanggil konfigurasi aplikasi, class yang dibutuhkan, serta membungkus setiap halaman dengan template header dan footer. Dengan adanya router ini, struktur aplikasi menjadi lebih terorganisir dan mudah dikembangkan.
+
+### Halaman Home
+
+Halaman home merupakan halaman awal yang ditampilkan sebelum pengguna melakukan login. Pada halaman ini, pengguna akan melihat informasi singkat mengenai aplikasi serta tombol login. Sistem akan melakukan pengecekan session untuk menentukan apakah pengguna sudah login atau belum. Jika pengguna belum login, maka sistem akan menampilkan tombol login, sedangkan jika pengguna sudah login, maka akan ditampilkan tombol untuk masuk ke dashboard sesuai dengan role pengguna.
+
+### Halaman Login 
+
+Halaman login digunakan untuk melakukan proses autentikasi pengguna. Pada halaman ini, pengguna diminta untuk memasukkan username dan password. Data tersebut akan diverifikasi dengan database menggunakan class autentikasi. Jika data yang dimasukkan benar, sistem akan menyimpan informasi pengguna ke dalam session dan mengarahkan pengguna ke dashboard sesuai dengan role-nya. Password pada aplikasi ini disimpan dalam bentuk hash untuk meningkatkan keamanan.
+
+
+| Login | Dashboard Admin |
+|-------|-----------------|
+| ![Login](screenshots/login.png) | ![Dashboard](screenshots/admin_dashboard.png) |
+
+| CRUD Barang | Filter & Pagination |
+|-------------|---------------------|
+| ![CRUD](screenshots/crud_barang.png) | ![Filter](screenshots/filter.png) |
+
+
+### Dashboard Admin 
+
+Dashboard admin merupakan halaman utama yang hanya dapat diakses oleh pengguna dengan role admin. Pada halaman ini, admin dapat melihat ringkasan data barang seperti jumlah total barang dan daftar barang terbaru. Dashboard ini juga menjadi pusat navigasi bagi admin untuk mengakses fitur manajemen barang, termasuk menambah, mengubah, dan menghapus data barang.
+
+### Manajemen Data Barang 
+
+Fitur manajemen barang hanya tersedia untuk admin dan mencakup seluruh proses CRUD (Create, Read, Update, Delete). Admin dapat menambahkan data barang baru, mengedit data barang yang sudah ada, serta menghapus data barang dari sistem. Selain itu, aplikasi juga menyediakan fitur filter pencarian berdasarkan kategori serta pagination untuk mempermudah pengelolaan data dalam jumlah besar. Seluruh proses pengolahan data barang ini diatur melalui class Barang sehingga logika aplikasi terpusat dan rapi.
+
+## Dashboard User
+
+Dashboard user merupakan halaman utama bagi pengguna dengan role user. Pada halaman ini, user dapat melihat informasi barang dalam bentuk ringkasan dan daftar barang terbaru. Berbeda dengan admin, user tidak memiliki akses untuk mengubah atau menghapus data barang. Dashboard ini bersifat informatif dan hanya memberikan akses baca (read-only) kepada user.
+
+## Template Tampilan 
+
+Folder template digunakan untuk menyimpan komponen tampilan yang digunakan secara berulang di berbagai halaman. Komponen tersebut meliputi header, footer, dan pemanggilan asset seperti CSS dan JavaScript. Dengan menggunakan template, tampilan aplikasi menjadi konsisten dan perubahan desain dapat dilakukan dengan lebih mudah tanpa harus mengubah setiap halaman satu per satu.
+
+## Class dan Logika Aplikasi 
+
+Folder class berisi kumpulan class yang menangani logika utama aplikasi. Class Database digunakan untuk mengatur koneksi dan query ke database, class Auth menangani proses autentikasi pengguna, dan class Barang bertanggung jawab atas pengolahan data barang. Pemisahan logika ini bertujuan agar kode lebih terstruktur, mudah dipahami, dan sesuai dengan prinsip OOP.
+
+
+
+
+
+
+
+
+
+
+
 
 
