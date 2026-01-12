@@ -71,7 +71,7 @@ Aplikasi Manajemen Barang adalah aplikasi berbasis web yang dibuat menggunakan P
 
 ## Alur Program 
 
-1.** User mengakses aplikasi melalui browser**
+1. **User mengakses aplikasi melalui browser**
    Pengguna membuka URL aplikasi, baik halaman utama, login dashboard, maupun fitur lainnya
    
 2. **Request diterima oleh index.php**        
