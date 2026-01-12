@@ -1,4 +1,10 @@
-# APLIKASI MANAHEMEN GUDANG 
+# APLIKASI MANAJEMEN GUDANG 
+- Nama: Muhamad Nikmal Wahid
+- Kelas: TI 24 A3
+- NIM: 312410372
+- Mata Kuliah : Pemrograman Web 1
+- Dosen Pengampu: Agung Nugroho, S.Kom., M.Kom.
+- 
 ## Deskripsi Aplikasi 
 
 Aplikasi Manajemen Barang adalah aplikasi berbasis web yang dibuat menggunakan PHP Native dengan pendekatan Object Oriented Programming (OOP) dan Modular Programming, serta menerapkan Routing App menggunakan .htaccess. Aplikasi ini bertujuan untuk membantu pengelolaan data barang seperti pencatatan, pengelompokan kategori, pencarian, serta pengaturan stok barang dengan sistem login berbasis role (admin & user). Aplikasi dikembangkan sebagai pemenuhan tugas praktikum mata kuliah Pemrograman Web / OOP & Modular.
