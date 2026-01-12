@@ -100,15 +100,33 @@ Aplikasi Manajemen Barang adalah aplikasi berbasis web yang dibuat menggunakan P
 10. **Halaman ditampilkan ke user**
     User melihat hasil akhir halaman yang sudah responsif dan sesuai hak akses.
 
-## Tampilan User
+## Tampilan Utama
 
 | Home | Login |
 |-------|-----------------|
 | ![Login](pict/home.png) | ![Login](pict/login.png) |
 
+
+## Tampilan User
+
 | Dashboard User | List Barang, Filter dan Pagination |
 |-------------|---------------------|
 | ![Dashboard](pict/db-user.png) | ![List](pict/list-user.png) |
+
+| Dashboard User |
+|-------------|
+| ![User Profile](pict/user-profile,png) | 
+
+
+## Tampilan Admin 
+
+| Home | List Admin |
+|-------|-----------------|
+| ![Dashboard Admin](pict/db-admin.png) | ![List admin](pict/list-admin.png) |
+
+| Tambah/Create | Edit dan Hapus |
+|-------------|---------------------|
+| ![Tambah Barang](pict/tambah.png) | ![Edit/Hapus](pict/edit.png) |
 
 
 
