@@ -115,7 +115,7 @@ Aplikasi Manajemen Barang adalah aplikasi berbasis web yang dibuat menggunakan P
 
 | Dashboard User |
 |-------------|
-| ![User Profile](pict/user-profile,png) | 
+| ![User Profile](pict/user-profile.png) | 
 
 
 ## Tampilan Admin 
