@@ -100,6 +100,23 @@ Aplikasi Manajemen Barang adalah aplikasi berbasis web yang dibuat menggunakan P
 10. **Halaman ditampilkan ke user**
     User melihat hasil akhir halaman yang sudah responsif dan sesuai hak akses.
 
+## Tampilan User
+
+| Home | Login |
+|-------|-----------------|
+| ![Login](pict/home.png) | ![Login](pict/login.png) |
+
+| Dashboard User | List Barang, Filter dan Pagination |
+|-------------|---------------------|
+| ![Dashboard](pict/db-user.png) | ![List](pict/list-user.png) |
+
+
+
+
+
+
+    
+
 ## Ringkasan 
 ### Index.php 
 
@@ -112,16 +129,6 @@ Halaman home merupakan halaman awal yang ditampilkan sebelum pengguna melakukan 
 ### Halaman Login 
 
 Halaman login digunakan untuk melakukan proses autentikasi pengguna. Pada halaman ini, pengguna diminta untuk memasukkan username dan password. Data tersebut akan diverifikasi dengan database menggunakan class autentikasi. Jika data yang dimasukkan benar, sistem akan menyimpan informasi pengguna ke dalam session dan mengarahkan pengguna ke dashboard sesuai dengan role-nya. Password pada aplikasi ini disimpan dalam bentuk hash untuk meningkatkan keamanan.
-
-
-| Login | Dashboard Admin |
-|-------|-----------------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/admin_dashboard.png) |
-
-| CRUD Barang | Filter & Pagination |
-|-------------|---------------------|
-| ![CRUD](screenshots/crud_barang.png) | ![Filter](screenshots/filter.png) |
-
 
 ### Dashboard Admin 
 
